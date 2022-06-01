@@ -7,13 +7,14 @@
 ```bash
 # 브랜치 만들면서 이동
 $ git switch -c letgodchan0/0602
+
+# 브랜치 확인
+$ git branch
 ```
 
 1. 문제 업로드 전 브랜치 생성 및 이동
 
 <br>
-
-1. 
 
 ```bash
 ex) 1주차/0602/찬영/
@@ -36,7 +37,7 @@ $ git push origin letgodchan0/0602
 
 <br>
 
-
+![z](README.assets/z.jpg)
 
 1. GitHub에서 내가 푸쉬한 내용 `pull request` 하기
 2. 다른 팀원들이 `pull request` 확인 후 `merge`
