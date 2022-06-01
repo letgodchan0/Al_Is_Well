@@ -4,16 +4,21 @@
 
 <hr>
 
+> 1. 문제 풀기 전 브랜치 생성 및 이동
+
 ```bash
 # 브랜치 만들면서 이동
 $ git switch -c letgodchan0/0602
+
+# 현재 브랜치 확인
+$ git branch
 ```
 
-1. 문제 업로드 전 브랜치 생성 및 이동
+
 
 <br>
 
-1. 
+> 문제 풀기 완료 후 각자 이름으로 폴더 만든 후 문 commit, push
 
 ```bash
 ex) 1주차/0602/찬영/
@@ -31,12 +36,11 @@ $ git commit -m "Add 문제 이름"			// 오타거나 재업로드일 경우 "Se
 $ git push origin letgodchan0/0602
 ```
 
-1. 오늘의 문제 풀기 진행!
-2. 문제 풀기 완료 후 각자 이름으로 폴더 만든 후 commit, push
-
 <br>
 
 
+
+> GitHub에서 내가 푸쉬한 내용 `pull request` 하기
 
 1. GitHub에서 내가 푸쉬한 내용 `pull request` 하기
 2. 다른 팀원들이 `pull request` 확인 후 `merge`
