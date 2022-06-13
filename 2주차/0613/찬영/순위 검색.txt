@@ -1,0 +1,37 @@
+from itertools import combinations
+from bisect import bisect_left
+def solution(info, query):
+    answer=[]
+    db={}
+    for i in info:
+        tmp=i.split()
+        career=tmp[:-1]
+        score=tmp[-1]
+        for k in range(5):
+            for j in combinations(career,k):
+                tmp1=''.join(j)
+                if tmp1 in db:
+                    db[tmp1].append(int(score))
+                else:
+                    db[tmp1]=[int(score)]
+    for d in db:
+        db[d].sort()
+
+    for i in query:
+        tmp=i.split(' ')
+        career=tmp[:-1]
+        score=tmp[-1]
+        while 'and'in career:
+            career.remove('and')
+        while '-' in career:
+            career.remove('-')
+        career=''.join(career)
+
+        if career in db:
+            scores= db[career]
+            if scores:
+                check=bisect_left(scores,  int(score))
+                answer.append(len(scores)-check)
+        else:
+            answer.append(0)
+    return answer
