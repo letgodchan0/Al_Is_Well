@@ -1,6 +1,6 @@
 |                   | 프로그래머스                                                 | 백준                                                     |
 | ----------------- | ------------------------------------------------------------ | -------------------------------------------------------- |
-| 6월 16일 - 목요일 | [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059) | [에너지 모으기](https://www.acmicpc.net/problem/16198)   |
+| 6월 16일 - 목요일 | [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686) | [에너지 모으기](https://www.acmicpc.net/problem/16198)   |
 | 6월 17일 - 금요일 | [방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683) | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) |
 | 6월 18일 - 토요일 | [N진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | [부분수열의 합](https://www.acmicpc.net/problem/1182)    |
 | 6월 19일 - 일요일 | [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410) | [버블 소트](https://www.acmicpc.net/problem/1517)        |
