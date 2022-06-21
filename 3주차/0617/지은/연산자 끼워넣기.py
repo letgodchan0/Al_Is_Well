@@ -17,6 +17,8 @@ n = int(sys.stdin.readline())
 nums = list(map(int, sys.stdin.readline().split()))
 operators = list(map(int, sys.stdin.readline().split()))
 results = []
+
 dfs(1, nums[0], operators)
+
 print(max(results))
 print(min(results))
