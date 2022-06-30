@@ -33,8 +33,11 @@ def search(i, cnt):
             k = ladder[k]
         elif k in snake:
             k = snake[k]
-        visited[k] = cnt+1
-        search(k, cnt+1)
+        if k in visited and cnt+1 > visited[k]:
+            continue
+        else:
+            visited[k] = cnt+1
+            search(k, cnt+1)
         
         
 visited = dict()
