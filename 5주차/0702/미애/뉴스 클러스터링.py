@@ -21,6 +21,18 @@ Counter({'AA': 2}) Counter({'AA': 3})
 merge sort 응용이라는데..
 '''
 
+'''
+# 대문자로 변환 => .upper() , .lower() 같은거 사용할 수 있었음
+def capital(strs):
+    res = ""
+    for i in strs:
+        if 'a' <= i <= 'z':
+            res += chr(ord(i)-32)
+        else:
+            res += i
+    return res
+'''
+
 from collections import Counter
 # 단어를 두글자씩 끊어서 집합을 만듬
 def sets(strs):
@@ -36,17 +48,6 @@ def sets(strs):
             i += 1
     return arr
 
-# 대문자로 변환 => .upper() , .lower() 같은거 사용할 수 있었음
-'''
-def capital(strs):
-    res = ""
-    for i in strs:
-        if 'a' <= i <= 'z':
-            res += chr(ord(i)-32)
-        else:
-            res += i
-    return res
-'''
 str1 = "aa1+aa2"
 str2 = "AAAA12"
 
